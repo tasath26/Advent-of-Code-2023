@@ -89,21 +89,11 @@ function part1(){
                         if(grid[newrow][newcol] !== '.' && !/\d/.test(grid[newrow][newcol])){
                             total_adj_symbols++;
                         }
-
-                        
-                        
                     }
-                   
                 }
-
-                
-                
             }
-
-            
         }
     }
-
     console.log("Part 1: ",sum);
 }
 
@@ -195,26 +185,12 @@ function part2(){
                             adj_star++;
                             star_x = newrow;
                             star_y = newcol;
-                        }
-
-                        
-                        
+                        }     
                     }
-                   
-                }
-
-
-
-                
-
-                
-                
+                }                
             }
-                
-            
         }
     }
-
     
     for(let i = 0; i < result.length; i++){
         for(let j = 0; j < result.length; j++){
