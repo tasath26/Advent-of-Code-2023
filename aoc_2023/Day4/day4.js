@@ -24,14 +24,14 @@ function part1(){
         const n = new Set(numbers);
         
         w.forEach(element => {
-        if (n.has(element)) {
-            if(common === 0){
-                common = 1;
-            }else{
-                common = common*2;
+            if (n.has(element)) {
+                if(common === 0){
+                    common = 1;
+                }else{
+                    common = common*2;
+                }    
             }
-        }
-});
+        });
 
         sum = sum + common;
         
